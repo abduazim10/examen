@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(1, 78, 86);
+}
+.s1{
+    background: rgb(1, 78, 86);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 165px 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 73px 165px;
+}
+.container i{
+    display: none;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+nav a{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+.navi button{
+    box-sizing: border-box;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 24px;
+width: 153px;
+height: 48px;
+color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+background: rgb(1, 78, 86);
+
+}
+.container img{
+    width: 159.95px;
+height: 40px;
+}
+.navi button:hover{
+    background-color: white;
+    color: rgb(0, 37, 41);
+}
+h1{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 64px;
+font-weight: 700;
+line-height: 100px;
+letter-spacing: 0px;
+text-align: left;
+}
+p{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+width: 730px;
+height: 112px;
+}
+.p1{
+    width: 730px;
+    height: 156px;
+    display: flex;
+    align-items: end;
+}
+.s2{
+    background: rgb(0, 64, 71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 167px 71px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    width: 350px;
+height: 274.73px;
+background: rgb(1, 47, 52);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.card img{
+    margin-top: 44px;
+    margin-bottom: 23px;
+}
+h2{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 69px;
+}
+h4{
+    color: rgb(121, 200, 199);
+font-family: Livvic;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+h3{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+}
+.card img{
+    width: 56px;
+height: 56px;
+position: relative;
+top: 28px;
+}
+.s3{
+    padding: 113px 165px;
+    background: rgb(1, 47, 52);
+}
+h5{
+    color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 55px;
+}
+.img1{
+    width: 165px;
+height: 22.79px;
+}
+.img2{
+    width: 184px;
+height: 18.72px;
+}
+.img3{
+    width: 180px;
+height: 22.79px;
+}
+.img4{
+    width: 165px;
+height: 22.79px;
+}
+.img5{
+    width: 98px;
+height: 36.62px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s4{
+    background: rgb(246, 126, 126); 
+    padding: 76px 260px;
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    color: rgb(1, 47, 52);
+font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: left;
+}
+.s4 button{
+    box-sizing: border-box;
+border: 2px solid rgb(1, 47, 52);
+border-radius: 24px;
+width: 153px;
+height: 48px;
+color: rgb(1, 47, 52);
+font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+background-color: transparent;
+}
+.s4 button:hover{
+    background: rgb(1, 47, 52);
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+footer{
+    padding: 48px 165px;
+    background: rgb(0, 37, 41);
+}
+footer img{
+    width: 159.95px;
+    height: 40px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iii{
+    display: flex;
+    gap: 16px;
+}
+i{
+    width: 24px;
+height: 24px;
+    color: white;
+}
+@media (max-width:768px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        padding: 72px 39px;
+    }
+    .s1{
+        padding: 0px 155px 112px;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+
+    }
+    .p1{
+        width: 457px;
+        height: 140px;
+        
+    }
+    p{
+        font-size: 15px;
+        
+    }
+    h1{
+        font-size: 64px;
+    }   
+    .card{
+        width: 281px;
+        height: 253px;
+        margin-bottom: 76px;
+    }
+    .cards{
+        justify-content: center;
+        gap: 10px;
+    }
+    .card img{
+        top: 8px;
+    }
+    .s2{
+        padding: 100px 97px;
+
+    }
+    .s3{
+        background: rgb(0, 64, 71);
+        padding: 100px 39px;
+    }
+    .imgs img{
+        width: 103px;
+height: 17px;
+    }
+    .imgs{
+        flex-wrap: wrap;
+    }
+    .s4{
+        padding: 84px 97px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    h6{
+        color: rgb(1, 47, 52);
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        width: 336px;
+        height: 32px;
+    }
+    footer{
+        padding: 30px 55px;
+    }
+    footer img{
+        width: 95.97px;
+    height: 24.47px;
+    }
+
+}
+@media (max-width:375px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        padding: 48px 24px;
+        align-items: center;
+        justify-content: space-between;
+        width: 375px;
+    }
+    .container img{
+        width: 127.96px;
+        height: 32px;   
+        
+    }
+    #asa{
+        display: block;
+        width: 20px;
+        height: 17px;
+        color: white;
+    }
+    .navi{
+        display: none;
+    }
+    .s1{
+        padding:  80px 24px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        
+        height: 196px;
+        width: 327px;
+        color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 15px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+    }
+    .p1{
+        width: 327px;
+        height: 196px;  
+        
+    }
+    .imgs img{
+        width: 159.37px;
+height: 19.81px;
+    }
+    .imgs{
+        gap: 45px;
+        justify-content: center;
+    }
+    h5{
+        color: rgb(255, 255, 255);
+font-family: Livvic;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+    }
+    h6{
+        color: rgb(1, 47, 52);
+font-family: Livvic;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+margin: 0;
+    }
+    .s4{
+        padding: 83px 24px;
+        justify-content: center;
+        gap: 24px;
+        height: 305px;
+    }
+    .container2{
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+}
